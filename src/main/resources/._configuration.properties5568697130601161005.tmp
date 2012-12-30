@@ -1,0 +1,22 @@
+# Basic engine properties
+! paths and variables
+
+perl    = C:/Users/Giank/Desktop/iris/lang/rsp4j.pl
+files   = C:/Users/Giank/Desktop/AidenSpanish
+
+# External Knowledge base
+externalKnowledgeBase       = WolframAlpha
+externalKnowledgeBaseAPIKey = 757Y52-XL85RKPKG8
+
+# Internal Knowledge base
+internalKnowledgeBase       = MongoDB
+internalKnowledgeAddress    = localhost
+internalKnowledgeLogin      = iris
+internalKnowledgePass       = irisbd
+internalKnowledgeSchema     = iris
+internalKnowledgeTable      = knowledge
+internalKnowledgePort       = 27017
+
+# Translator Services Bing
+appId   = translator-iris
+secret  = estaesunapruebagarotiana
