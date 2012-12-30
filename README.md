@@ -69,4 +69,4 @@ bing_translator_id      = (azure application id)
 bing_translator_secret  = (azure application secret)
 ```
 
-3. Run the Console.java and chat demo with your bot
+3. Run the Console.java and chat demo with your bot or the JabberSmackAPI.java for connecting to a xmpp server such as openfire
