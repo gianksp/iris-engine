@@ -4,6 +4,8 @@ IRIS-ENGINE
 IRIS-ENGINE is an enhanced chatbot engine developed upon the work done by Noah Petherbridge with RiveScript. I've followed by quite a while many developments related to chatbot engines, some more amazing than others and in this ProgramJ version
 I add my contribution to the cause. What does IRIS-ENGINE has that other engines do not offer and why?
 
+**ECLIPSE BASED PROJECT**
+
 Features
 ========
 
