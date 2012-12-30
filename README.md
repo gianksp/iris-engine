@@ -4,7 +4,7 @@ IRIS-ENGINE
 IRIS-ENGINE is an enhanced chatbot engine developed upon the work done by Noah Petherbridge with RiveScript. I've followed by quite a while many developments related to chatbot engines, some more amazing than others and in this ProgramJ version
 I add my contribution to the cause. What does IRIS-ENGINE has that other engines do not offer and why?
 
-**ECLIPSE BASED PROJECT**
+**OPTIMIZED FOR ECLIPSE**
 
 Features
 ========
@@ -13,14 +13,12 @@ Features
 2. **KNOWLEDGE BASED**. Powered by WolframAlpha and MIT Start search engines ProgramJ is able to acquire knowledge in realtime during a conversation with anyone by providing the programmer with a new set of tags that allow knowledge base searching.
 3. **PERSISTENT**. What good is a bot that is not able to memorize new information?. Not good at all. That is why ProgramJ is enhanced with a persistence layer that is able to store units of knowledge (categories). This layer is powered by MongoDB.
 4. **SMART TAGGING**. AlchemyAPI services provide the smart tagging capabilities and MongoDB provides the tag search functionalities with the Aggregation Framework (a better performance alternative to map reduce technique).
-
-Current Status (TO_DO)
-======================
-
-1. Translation to bot language after calling a natural language processing service in English isn't done
+5. 
 
 Prerequisites
 ==============
+
+Before doing anything, ask me for the UTILS folder which contains additional needed libraries, RiveScript sets and project documentation. You will need it while running the application.
 
 1. Install MongoDB locally create a new database, a new collection and add authentication for a specific user with password (this information will be used later on during the installation process to fill the configuration.properties file). After installing the database engine, start the service.
 2. Set your Windows Azure Marketplace client info - See http://msdn.microsoft.com/en-us/library/hh454950.aspx and enable the use of the Bing Translator API. Store your clientId and secret.
