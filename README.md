@@ -12,13 +12,12 @@ Features
 1. **MULTILINGUAL**. Most chatbot engines make extremely complicated the programming of multilingual chatbots. RiveScript stepped forward by defining substitutions and other language depending properties for each bot. Being multilingual and having web search capabilities for information requires that the knowledge search and data interpretation must be done with the same language but sometimes the internet source information languages defer from one to another and sometimes do not even match the end user language. That is why ProgramJ implements a translation layer that becomes the communication bridge bewteen the information sources and the end user.
 2. **KNOWLEDGE BASED**. Powered by WolframAlpha and MIT Start search engines ProgramJ is able to acquire knowledge in realtime during a conversation with anyone by providing the programmer with a new set of tags that allow knowledge base searching.
 3. **PERSISTENT**. What good is a bot that is not able to memorize new information?. Not good at all. That is why ProgramJ is enhanced with a persistence layer that is able to store units of knowledge (categories). This layer is powered by MongoDB.
-4. **SMART TAGGING**. AlchemyAPI services provide the smart tagging capabilities and MongoDB provides the tag search functionalities with the Aggregation Framework (a better performance alternative to map reduce technique).
-5. 
+4. **SMART TAGGING**. AlchemyAPI services provide the smart tagging capabilities and MongoDB provides the tag search functionalities with the Aggregation Framework (a better performance alternative to map reduce technique). 
 
 Prerequisites
 ==============
 
-Before doing anything, ask me for the UTILS folder which contains additional needed libraries, RiveScript sets and project documentation. You will need it while running the application.
+Before doing anything, ask me for the UTILS folder which contains additional needed libraries, RiveScript sets and project documentation. You will need it while running the application. If I don't remember the location, remind me its in my main gmail account dropbox.
 
 1. Install MongoDB locally create a new database, a new collection and add authentication for a specific user with password (this information will be used later on during the installation process to fill the configuration.properties file). After installing the database engine, start the service.
 2. Set your Windows Azure Marketplace client info - See http://msdn.microsoft.com/en-us/library/hh454950.aspx and enable the use of the Bing Translator API. Store your clientId and secret.
@@ -35,9 +34,6 @@ artifactId:  wolfram
 version:     1.1
 type:        jar
 ```
-
-     
-8. Start installing the project
 
 Installation
 ============
