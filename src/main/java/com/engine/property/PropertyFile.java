@@ -31,7 +31,7 @@ public class PropertyFile implements IProperty {
         try {
             // Read properties for persistence, knowledge translation and remaining modules.
             properties = new Properties();
-            fileInputStream = new FileInputStream("/home/gianksp/NetBeansProjects/programJ/programJ/src/main/resources/configuration.properties");
+            fileInputStream = new FileInputStream("/iris/configuration.properties");
             properties.load(fileInputStream);
             LOG.log(Level.FINE, "PropertyFile successfully loaded");
         } catch (IOException e) {
